@@ -1,6 +1,6 @@
 {
   "name": "wispy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reversible alternative syntax for Javascript",
   "license": "ISC",
   "repository": "https://github.com/raineorshine/wispy",
