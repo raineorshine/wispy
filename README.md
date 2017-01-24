@@ -4,9 +4,9 @@
 [![Build Status](https://travis-ci.org/raineorshine/wispy.svg?branch=master)](https://travis-ci.org/raineorshine/wispy)
 -->
 
-Reversible alternative syntax for Javascript
+Reversible alternative syntax for Javascript.
 
-*What is a reversible transpiler?*
+### What is a reversible transpiler?
 
 Normally transpilers are one-way: A given Coffeescript renders Javascript deterministically, but the output Javascript cannot unambiguously be converted back into Coffeescript (much less the original Javascript). A reversible syntax is a deterministic syntactical transpiler. This allows editing in a new syntax while 
 
@@ -21,6 +21,7 @@ server.get((req, res) =>
     else   
       console.log('The contents of your file are: \n' + text)
       res.status(200).send(text)))
+```
 
 Javascript:
 
