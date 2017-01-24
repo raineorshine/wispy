@@ -6,13 +6,16 @@
 
 Reversible alternative syntax for Javascript.
 
-### What is a reversible transpiler?
+- **Normal transpiler:** Specialscript → Javascript
+- **Reversible transpiler:** Javascript → Specialscript → Javascript
 
-Normally transpilers are one-way: A given Coffeescript renders Javascript deterministically, but the output Javascript cannot unambiguously be converted back into Coffeescript (much less the original Javascript). A reversible syntax is a deterministic syntactical transpiler. This allows editing in a new syntax while 
+A reversible transpiler lets you code Javascript in an alternative syntax (e.g. Python-like indentation) and have seamless integration with an existing Javascript codebase. Input is Javascript and output is Javascript. The editing happens within an ephemeral intermediate language.
+
+---
 
 wispy:
 
-```hs
+```haskell
 server.get((req, res) =>   
   fs.readFile('myfile', 'utf-8', (err, text) =>   
     if (err)   
@@ -48,8 +51,8 @@ $ npm install --save -g wispy
 
 ## Usage
 
-```js
-const wispy = require('wispy')
+```sh
+$ myfile.js < wispy
 ```
 
 ## Philosophy
