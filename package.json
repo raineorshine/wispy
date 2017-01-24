@@ -1,0 +1,31 @@
+{
+  "name": "wispy",
+  "version": "0.1.0",
+  "description": "Reversible alternative syntax for Javascript",
+  "license": "ISC",
+  "repository": "https://github.com/raineorshine/wispy",
+  "author": {
+    "name": "Raine Revere",
+    "email": "raineorshine@gmail.com",
+    "url": "http://raine.tech"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "wispy": "bin.js"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "get-stdin-promise": "^0.1.1",
+    "blocktree": "https://github.com/raineorshine/blocktree#locations"
+  }
+}
