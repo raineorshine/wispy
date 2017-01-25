@@ -67,7 +67,7 @@ There are a few problems though.
 
 3. No matter how nice a language/workflow you have with your new, special language, you can only utilize it on your project. Any open source projects or team projects that are in Javascript force you back to the medieval age.
 
-A reversible transpiler eliminates all these problems. It takes Javascript as input so it can be used on any open source project. It outputs Javascript so there is 0 friction with other people's Javascript tooling. It moves the language enhancements to the individual developer and seamlessly integrates with existing code
+A reversible transpiler eliminates all these problems. It takes Javascript as input so it can be used on any open source project. It outputs Javascript so there is 0 friction with other people's Javascript tooling. It moves the language enhancements to the individual developer and seamlessly integrates with existing code.
 
 ## License
 
